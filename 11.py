@@ -14,7 +14,7 @@ class Solution:
                 while (i < j):
                     i += 1
                     if (heights[i] > minh):
-                        break
+                        break 
 
             else:
                 minh = heights[j]
